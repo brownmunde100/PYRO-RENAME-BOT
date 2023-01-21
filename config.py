@@ -21,5 +21,3 @@ START_PIC = os.environ.get("START_PIC", "")
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
 
 PORT = os.environ.get('PORT', '8080')
-
-START_MESSAGE = os.environ.get("START_MESSAGE", "")
